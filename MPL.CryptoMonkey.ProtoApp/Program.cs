@@ -2,11 +2,20 @@
 
 namespace MPL.CryptoMonkey.ProtoApp
 {
-    class Program
+    /// <summary>
+    /// A class that defines the entry point for the program.
+    /// </summary>
+    internal class Program
     {
-        static void Main(string[] args)
+        #region Methods
+        #region _Public_
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CryptoMonkeyApp app = new(new ConsoleInterface());
+            app.Start();
         }
+
+        #endregion
+        #endregion
     }
 }

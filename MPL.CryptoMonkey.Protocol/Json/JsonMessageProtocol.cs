@@ -11,7 +11,7 @@ namespace MPL.CryptoMonkey.Protocol.Json
         #region _IMessageProtocol_
         string IMessageProtocol.OutputText(IOutboundMessage outboundMessage)
         {
-            
+            return null;
         }
 
         #endregion

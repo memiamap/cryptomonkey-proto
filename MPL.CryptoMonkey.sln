@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPL.CryptoMonkey.ProtoApp", "MPL.CryptoMonkey.ProtoApp\MPL.CryptoMonkey.ProtoApp.csproj", "{6B8EC45A-6FB1-40F2-91DF-CA4AE107C93E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPL.CryptoMonkey.ProtoApp", "MPL.CryptoMonkey.ProtoApp\MPL.CryptoMonkey.ProtoApp.csproj", "{6B8EC45A-6FB1-40F2-91DF-CA4AE107C93E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPL.CryptoMonkey.Protocol", "MPL.CryptoMonkey.Protocol\MPL.CryptoMonkey.Protocol.csproj", "{5EBDC028-1887-46D0-956B-4FBCA68C4841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPL.CryptoMonkey.Protocol", "MPL.CryptoMonkey.Protocol\MPL.CryptoMonkey.Protocol.csproj", "{5EBDC028-1887-46D0-956B-4FBCA68C4841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPL.CryptoMonkey.Cryptography", "MPL.CryptoMonkey.Cryptography\MPL.CryptoMonkey.Cryptography.csproj", "{95A8CD89-A37F-467A-8D7D-974CDDEA1699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPL.CryptoMonkey.Cryptography.Core", "MPL.CryptoMonkey.Cryptography.Core\MPL.CryptoMonkey.Cryptography.Core.csproj", "{584ED238-03DF-401F-80AE-97309C914B01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,30 @@ Global
 		{5EBDC028-1887-46D0-956B-4FBCA68C4841}.Release|x64.Build.0 = Release|Any CPU
 		{5EBDC028-1887-46D0-956B-4FBCA68C4841}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EBDC028-1887-46D0-956B-4FBCA68C4841}.Release|x86.Build.0 = Release|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Debug|x64.Build.0 = Debug|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Debug|x86.Build.0 = Debug|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Release|x64.ActiveCfg = Release|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Release|x64.Build.0 = Release|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Release|x86.ActiveCfg = Release|Any CPU
+		{95A8CD89-A37F-467A-8D7D-974CDDEA1699}.Release|x86.Build.0 = Release|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Debug|x64.Build.0 = Debug|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Debug|x86.Build.0 = Debug|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Release|x64.ActiveCfg = Release|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Release|x64.Build.0 = Release|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Release|x86.ActiveCfg = Release|Any CPU
+		{584ED238-03DF-401F-80AE-97309C914B01}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
